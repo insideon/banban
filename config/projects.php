@@ -36,7 +36,7 @@ return [
                 '심리 케미스트리',
                 '마인드맵 공유',
             ],
-            'github_url' => 'https://github.com/banban/mindport',
+            'github_url' => 'https://github.com/insideon/mindport',
         ],
     ],
 ];
