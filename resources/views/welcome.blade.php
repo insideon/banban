@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>banban.dev - 프로젝트 쇼케이스</title>
+    <title>BANBAN - 프로젝트 쇼케이스</title>
     <meta name="description" content="다양한 웹 애플리케이션을 직접 체험해보세요.">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
