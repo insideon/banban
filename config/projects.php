@@ -19,15 +19,15 @@ return [
     |
     */
     'status_labels' => [
-        'development' => '개발 중',
-        'live' => '운영 중',
-        'maintenance' => '점검 중',
+        'dev' => '개발 중',
+        'prod' => '운영 중',
+        'maint' => '점검 중',
     ],
 
     'projects' => [
         [
             'name' => 'MindPort',
-            'status' => 'development',
+            'status' => 'dev',
             'subdomain' => 'mindport',
             'description' => 'MindPort는 심리 케미스트리 플랫폼입니다.',
             'technologies' => ['Laravel', 'React.js', 'Tailwind CSS'],

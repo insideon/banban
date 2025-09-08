@@ -21,9 +21,9 @@
                     <div class="absolute top-3 right-3">
                         <span @class([
                             'px-3 py-1.5 text-xs rounded-full backdrop-blur-md bg-white/10',
-                            'text-yellow-300 font-bold' => $project['status'] === 'development',
-                            'text-emerald-400 font-bold' => $project['status'] === 'live',
-                            'text-red-400 font-bold' => $project['status'] === 'maintenance'
+                            'text-yellow-300 font-bold' => $project['status'] === 'dev',
+                            'text-emerald-400 font-bold' => $project['status'] === 'prod',
+                            'text-red-400 font-bold' => $project['status'] === 'maint'
                         ])>
                             {{ config('projects.status_labels.'.$project['status']) }}
                         </span>
