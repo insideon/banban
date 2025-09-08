@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BANBAN</title>
-    <meta name="description" content="다양한 웹 애플리케이션을 직접 체험해보세요.">
+    <meta name="description" content="프로젝트 쇼케이스">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
