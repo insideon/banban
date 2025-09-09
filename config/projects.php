@@ -32,7 +32,7 @@ return [
             'status' => 1,
             'url' => 'https://mindport.io',
             'description' => '심리 케미스트리 플랫폼',
-            'technologies' => ['Laravel', 'React', 'Tailwind CSS'],
+            'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
             'features' => [
                 '심리 테스트',
                 '심리 케미스트리',
