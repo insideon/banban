@@ -6,7 +6,8 @@ return [
     | 데모 프로젝트 설정
     |--------------------------------------------------------------------------
     |
-    | 각 프로젝트는 고유한 서브도메인을 가지며, 메인 페이지에서 링크로 연결됩니다.
+    | 각 프로젝트는 고유한 URL을 가지며, 메인 페이지에서 링크로 연결됩니다.
+    | github_url 값이 없으면 버튼 비활성화
     |
     */
 
@@ -19,24 +20,25 @@ return [
     |
     */
     'status_labels' => [
-        'dev' => '개발 중',
-        'prod' => '운영 중',
-        'maint' => '점검 중',
+        1 => 'Live',
+        2 => 'Prototype',
+        3 => 'Concept',
+        4 => 'Legacy',
     ],
 
     'projects' => [
         [
             'name' => 'MindPort',
-            'status' => 'dev',
-            'subdomain' => 'mindport',
-            'description' => 'MindPort는 심리 케미스트리 플랫폼입니다.',
-            'technologies' => ['Laravel', 'React.js', 'Tailwind CSS'],
+            'status' => 1,
+            'url' => 'https://mindport.io',
+            'description' => '심리 케미스트리 플랫폼',
+            'technologies' => ['Laravel', 'React', 'Tailwind CSS'],
             'features' => [
-                '반응형 디자인',
+                '심리 테스트',
                 '심리 케미스트리',
-                '마인드맵 공유',
+                '반응형 디자인',
             ],
-            'github_url' => 'https://github.com/insideon/mindport',
+            'github_url' => '',
         ],
     ],
 ];
