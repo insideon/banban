@@ -6,6 +6,10 @@
     <title>BANBAN</title>
     <meta name="description" content="프로젝트 쇼케이스">
 
+    <!-- 모바일 노치 배경색 설정 (다크 테마) -->
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#000000">
+
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
