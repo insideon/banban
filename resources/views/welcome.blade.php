@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="bg-gradient-to-b from-gray-900 to-black">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="bg-gradient-to-b from-gray-900 to-black min-h-screen">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,9 @@
 
     <!-- iOS Safari 하단 상태표시줄 색상 설정 -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- iOS Safari 주소창 숨김 및 전체화면 모드 -->
+    <meta name="mobile-web-app-capable" content="yes">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
