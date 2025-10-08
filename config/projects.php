@@ -40,5 +40,18 @@ return [
             ],
             'github_url' => '',
         ],
+        [
+            'name' => 'TubeInsight',
+            'status' => 2,
+            'url' => 'https://tube-insight.banban.dev',
+            'description' => '유튜브 채널 성과 분석 사이트',
+            'technologies' => ['Laravel', 'Livewire', 'Filament', 'Tailwind CSS', 'YouTube API'],
+            'features' => [
+                '채널 성과 분석',
+                '실시간 데이터 시각화',
+                '반응형 디자인',
+            ],
+            'github_url' => 'https://github.com/insideon/tube-insight',
+        ],
     ],
 ];
