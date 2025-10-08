@@ -28,19 +28,6 @@ return [
 
     'projects' => [
         [
-            'name' => 'MindPort',
-            'status' => 1,
-            'url' => 'https://mindport.io',
-            'description' => '심리 케미스트리 플랫폼',
-            'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
-            'features' => [
-                '심리 테스트',
-                '심리 케미스트리',
-                '반응형 디자인',
-            ],
-            'github_url' => '',
-        ],
-        [
             'name' => 'TubeInsight',
             'status' => 2,
             'url' => 'https://tube-insight.banban.dev',
@@ -52,6 +39,19 @@ return [
                 '반응형 디자인',
             ],
             'github_url' => 'https://github.com/insideon/tube-insight',
+        ],
+        [
+            'name' => 'MindPort',
+            'status' => 1,
+            'url' => 'https://mindport.io',
+            'description' => '심리 케미스트리 플랫폼',
+            'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
+            'features' => [
+                '심리 테스트',
+                '심리 케미스트리',
+                '반응형 디자인',
+            ],
+            'github_url' => '',
         ],
     ],
 ];
