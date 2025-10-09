@@ -44,7 +44,7 @@ return [
             'status' => 3,
             'url' => 'https://sportslink.banban.dev',
             'description' => '스포츠 아카데미 중개 서비스 플랫폼',
-            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'MySQL'],
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'SQLite'],
             'features' => [
                 '아카데미 탐색 및 검색',
                 '종목별/지역별 필터링',
