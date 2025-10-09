@@ -18,6 +18,18 @@ return [
     |
     | 각 상태별 표시 방법을 설정합니다.
     |
+    | 1. Live      - 완전히 개발 완료되어 실제 운영 중인 프로젝트
+    |                (실사용자가 있고 안정적으로 운영 중)
+    |
+    | 2. Prototype - 개발 중이거나 베타 테스트 단계의 프로젝트
+    |                (기본 기능은 작동하지만 완성되지 않음)
+    |
+    | 3. Concept   - 아이디어/기획 단계의 프로젝트
+    |                (개발이 시작되지 않았거나 초기 단계, 데모나 목업만 존재)
+    |
+    | 4. Legacy    - 더 이상 유지보수하지 않는 아카이브된 프로젝트
+    |                (참고용으로만 남겨둔 프로젝트)
+    |
     */
     'status_labels' => [
         1 => 'Live',
@@ -29,7 +41,7 @@ return [
     'projects' => [
         [
             'name' => 'Foodlytics',
-            'status' => 2,
+            'status' => 3,
             'url' => 'https://foodlytics.banban.dev',
             'description' => '음식 분석 플랫폼',
             'technologies' => ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
@@ -42,7 +54,7 @@ return [
         ],
         [
             'name' => 'TubeInsight',
-            'status' => 2,
+            'status' => 3,
             'url' => 'https://tube-insight.banban.dev',
             'description' => '유튜브 채널 성과 분석 사이트',
             'technologies' => ['Laravel', 'Livewire', 'Filament', 'Tailwind CSS', 'YouTube API'],
@@ -55,7 +67,7 @@ return [
         ],
         [
             'name' => 'MindPort',
-            'status' => 1,
+            'status' => 4,
             'url' => 'https://mindport.io',
             'description' => '심리 케미스트리 플랫폼',
             'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
