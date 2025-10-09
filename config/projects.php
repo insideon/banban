@@ -80,7 +80,7 @@ return [
         ],
         [
             'name' => 'MindPort',
-            'status' => 4,
+            'status' => 2,
             'url' => 'https://mindport.io',
             'description' => '심리 케미스트리 플랫폼',
             'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
