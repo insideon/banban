@@ -1,4 +1,34 @@
 <div class="mt-16">
+    <!-- 상태 필터 -->
+    <div class="mb-8 flex flex-wrap gap-3 justify-center">
+        <a href="/?status=all" @class([
+            'px-5 py-2.5 rounded-lg text-sm font-medium transition-all duration-200',
+            'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg' => $statusFilter === 'all',
+            'bg-white/5 text-gray-300 hover:bg-white/10 border border-white/10' => $statusFilter !== 'all',
+        ])>
+            전체
+        </a>
+        @foreach($statusLabels as $status => $label)
+            <a href="/?status={{ $status }}" @class([
+                'px-5 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-2',
+                'bg-gradient-to-r from-emerald-500 to-emerald-600 text-white shadow-lg' => $statusFilter == $status && $status === 1,
+                'bg-gradient-to-r from-yellow-500 to-yellow-600 text-white shadow-lg' => $statusFilter == $status && $status === 2,
+                'bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg' => $statusFilter == $status && $status === 3,
+                'bg-gradient-to-r from-gray-500 to-gray-600 text-white shadow-lg' => $statusFilter == $status && $status === 4,
+                'bg-white/5 text-gray-300 hover:bg-white/10 border border-white/10' => $statusFilter != $status,
+            ])>
+                <span @class([
+                    'w-2 h-2 rounded-full',
+                    'bg-emerald-400' => $status === 1,
+                    'bg-yellow-300' => $status === 2,
+                    'bg-blue-400' => $status === 3,
+                    'bg-gray-400' => $status === 4,
+                ])></span>
+                {{ $label }}
+            </a>
+        @endforeach
+    </div>
+
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         @foreach($projects as $project)
             <div class="group bg-white/5 backdrop-blur rounded-xl border border-white/10 hover:border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full">
