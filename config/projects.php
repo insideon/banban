@@ -40,6 +40,19 @@ return [
 
     'projects' => [
         [
+            'name' => 'SportsLink',
+            'status' => 3,
+            'url' => 'https://sportslink.banban.dev',
+            'description' => '스포츠 아카데미 중개 서비스 플랫폼',
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'MySQL'],
+            'features' => [
+                '아카데미 탐색 및 검색',
+                '종목별/지역별 필터링',
+                '반응형 디자인',
+            ],
+            'github_url' => 'https://github.com/insideon/sportslink',
+        ],
+        [
             'name' => 'Foodlytics',
             'status' => 3,
             'url' => 'https://foodlytics.banban.dev',
