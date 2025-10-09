@@ -91,5 +91,18 @@ return [
             ],
             'github_url' => '',
         ],
+        [
+            'name' => 'WithToc',
+            'status' => 1,
+            'url' => 'https://withtoc.com',
+            'description' => '중국 증시 뉴스 및 분석 플랫폼',
+            'technologies' => ['WordPress', 'PHP', 'MySQL'],
+            'features' => [
+                '실적/정책/시황 분석',
+                '특징주 및 산업 리포트',
+                '카테고리별 기사 분류',
+            ],
+            'github_url' => '',
+        ],
     ],
 ];
