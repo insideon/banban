@@ -28,6 +28,19 @@ return [
 
     'projects' => [
         [
+            'name' => 'Foodlytics',
+            'status' => 2,
+            'url' => 'https://foodlytics.banban.dev',
+            'description' => '음식 분석 플랫폼',
+            'technologies' => ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
+            'features' => [
+                '음식 데이터 분석',
+                '실시간 대시보드',
+                '반응형 디자인',
+            ],
+            'github_url' => 'https://github.com/insideon/foodlytics',
+        ],
+        [
             'name' => 'TubeInsight',
             'status' => 2,
             'url' => 'https://tube-insight.banban.dev',
