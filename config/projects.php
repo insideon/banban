@@ -40,6 +40,19 @@ return [
 
     'projects' => [
         [
+            'name' => 'WB OMS',
+            'status' => 3,
+            'url' => 'https://wb-oms.banban.dev',
+            'description' => '와일드베리스 통합 주문관리 시스템',
+            'technologies' => ['Laravel', 'Livewire', 'Filament', 'PostgreSQL'],
+            'features' => [
+                'Wildberries API 연동',
+                '자동 주문 수집 및 번역',
+                'WMS 배송 관리',
+            ],
+            'github_url' => 'https://github.com/insideon/wb-oms',
+        ],
+        [
             'name' => 'SportsLink',
             'status' => 3,
             'url' => 'https://sportslink.banban.dev',
