@@ -40,6 +40,19 @@ return [
 
     'projects' => [
         [
+            'name' => 'NextVu',
+            'status' => 2,
+            'url' => 'https://nextvu.banban.dev',
+            'description' => 'AI 기반 트레이딩 전략 백테스팅 플랫폼',
+            'technologies' => ['Laravel', 'Livewire', 'PostgreSQL', 'Tailwind CSS'],
+            'features' => [
+                '전략 템플릿 시스템',
+                'AI 기반 전략 분석',
+                '백테스팅 엔진',
+            ],
+            'github_url' => 'https://github.com/insideon/nextvu',
+        ],
+        [
             'name' => 'WB OMS',
             'status' => 3,
             'url' => 'https://wb-oms.banban.dev',
