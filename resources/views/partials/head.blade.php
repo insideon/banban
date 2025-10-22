@@ -3,6 +3,9 @@
 
 <title>{{ $title ?? config('app.name') }}</title>
 
+<!-- 네이버 서치어드바이저 사이트 소유확인 -->
+<meta name="naver-site-verification" content="1ca8e2bad1f4708b401370c4c111308e8468fefe" />
+
 <!-- 모바일 노치 배경색 설정 (다크 테마) -->
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#000000">
