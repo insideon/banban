@@ -17,6 +17,16 @@ class RssController extends Controller
         $rss .= '<language>ko-KR</language>';
         $rss .= '<lastBuildDate>'.now()->toAtomString().'</lastBuildDate>';
         $rss .= '<atom:link href="'.route('rss').'" rel="self" type="application/rss+xml" />';
+
+        // 프로젝트 소개 아이템
+        $rss .= '<item>';
+        $rss .= '<title><![CDATA[BANBAN의 프로젝트 쇼케이스]]></title>';
+        $rss .= '<description><![CDATA[다양한 웹 애플리케이션을 직접 체험해 보세요.]]></description>';
+        $rss .= '<link>'.route('home').'</link>';
+        $rss .= '<guid isPermaLink="false">'.route('home').'#showcase</guid>';
+        $rss .= '<pubDate>'.now()->toAtomString().'</pubDate>';
+        $rss .= '</item>';
+
         $rss .= '</channel>';
         $rss .= '</rss>';
 
