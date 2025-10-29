@@ -40,6 +40,19 @@ return [
 
     'projects' => [
         [
+            'name' => '해시푸드',
+            'status' => 2,
+            'url' => 'https://www.hashfood.io',
+            'description' => '식자재 원가 계산 및 레피시 분석 플랫폼',
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PostgreSQL'],
+            'features' => [
+                '식자재 원가 계산',
+                '요리 레피시',
+                '식자재 데이터 분석',
+            ],
+            'github_url' => '',
+        ],
+        [
             'name' => 'NextVu',
             'status' => 2,
             'url' => 'https://nextvu.banban.dev',
