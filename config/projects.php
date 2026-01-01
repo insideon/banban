@@ -44,7 +44,7 @@ return [
             'status' => 2,
             'url' => 'https://www.hashfood.io',
             'description' => '식자재 원가 계산 및 레피시 분석 플랫폼',
-            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'PostgreSQL'],
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS'],
             'features' => [
                 '식자재 원가 계산',
                 '요리 레피시',
@@ -57,7 +57,7 @@ return [
             'status' => 2,
             'url' => 'https://nextvu.banban.dev',
             'description' => 'AI 기반 트레이딩 전략 백테스팅 플랫폼',
-            'technologies' => ['Laravel', 'Livewire', 'PostgreSQL', 'Tailwind CSS'],
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS'],
             'features' => [
                 '전략 템플릿 시스템',
                 'AI 기반 전략 분석',
@@ -70,7 +70,7 @@ return [
             'status' => 3,
             'url' => 'https://wb-oms.banban.dev',
             'description' => '와일드베리스 통합 주문관리 시스템',
-            'technologies' => ['Laravel', 'Livewire', 'Filament', 'PostgreSQL'],
+            'technologies' => ['Laravel', 'Livewire', 'Filament'],
             'features' => [
                 'Wildberries API 연동',
                 '자동 주문 수집 및 번역',
@@ -122,7 +122,7 @@ return [
             'status' => 2,
             'url' => 'https://mindport.io',
             'description' => '심리 케미스트리 플랫폼',
-            'technologies' => ['Laravel', 'React', 'Tailwind CSS', 'PostgreSQL'],
+            'technologies' => ['Laravel', 'React', 'Tailwind CSS'],
             'features' => [
                 '심리 테스트',
                 '심리 케미스트리',
