@@ -120,7 +120,7 @@ return [
         [
             'name' => 'MindPort',
             'status' => 2,
-            'url' => 'https://mindport.io',
+            'url' => 'https://mindport.banban.dev/',
             'description' => '심리 케미스트리 플랫폼',
             'technologies' => ['Laravel', 'React', 'Tailwind CSS'],
             'features' => [
