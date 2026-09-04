@@ -7,7 +7,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | 각 프로젝트는 고유한 URL을 가지며, 메인 페이지에서 링크로 연결됩니다.
-    | github_url 값이 없으면 버튼 비활성화
+    | url 값이 없으면 방문하기 버튼 비활성화
+    | github_url 값이 없으면 GitHub 버튼 비활성화
     |
     */
 
@@ -39,6 +40,45 @@ return [
     ],
 
     'projects' => [
+        [
+            'name' => 'ROVAN',
+            'status' => 1,
+            'url' => 'https://www.rovangold.com',
+            'description' => '종로3가 금공장 직판 순금 쇼핑몰',
+            'technologies' => ['Laravel', 'Blade'],
+            'features' => [
+                '콩알금·골드바 판매',
+                '맞춤 주얼리 제작 주문',
+                '공장 직판 시세 안내',
+            ],
+            'github_url' => '',
+        ],
+        [
+            'name' => 'RoundLink',
+            'status' => 2,
+            'url' => 'https://round-link.com',
+            'description' => '체육관 통합 관리 플랫폼',
+            'technologies' => ['Laravel', 'Tailwind CSS'],
+            'features' => [
+                '회원 및 회원권 관리',
+                'PT·출석 관리',
+                '매출 리포트 및 직원 관리',
+            ],
+            'github_url' => '',
+        ],
+        [
+            'name' => 'MediPHR',
+            'status' => 2,
+            'url' => 'https://mediphr.com',
+            'description' => '건강정보 고속도로 기반 AI 건강정보 플랫폼',
+            'technologies' => ['Laravel', 'Livewire', 'Flux UI', 'Tailwind CSS'],
+            'features' => [
+                '마이데이터 진료기록 통합 조회',
+                'AI 건강 데이터 분석',
+                '의료진 진료 참고 정보 제공',
+            ],
+            'github_url' => '',
+        ],
         [
             'name' => '해시푸드',
             'status' => 2,
@@ -94,7 +134,7 @@ return [
         [
             'name' => 'Foodlytics',
             'status' => 3,
-            'url' => 'https://foodlytics.banban.dev',
+            'url' => '',
             'description' => '음식 분석 플랫폼',
             'technologies' => ['Next.js', 'TypeScript', 'Supabase', 'Tailwind CSS'],
             'features' => [
