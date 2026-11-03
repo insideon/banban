@@ -41,9 +41,24 @@ return [
 
     'projects' => [
         [
+            'name' => 'PL:US ESG 챌린지',
+            'status' => 1,
+            'url' => 'https://seoul-tourism-plaza.laravel.cloud',
+            'thumbnail' => '/images/projects/plus-esg.jpg',
+            'description' => '서울관광플라자 임직원 참여형 ESG 챌린지 플랫폼',
+            'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS'],
+            'features' => [
+                '회차별 ESG 미션 운영',
+                '사진 업로드 실천 인증',
+                '참여 현황 및 공지 안내',
+            ],
+            'github_url' => '',
+        ],
+        [
             'name' => 'ROVAN',
             'status' => 1,
             'url' => 'https://www.rovangold.com',
+            'thumbnail' => '/images/projects/rovan.jpg',
             'description' => '종로3가 금공장 직판 순금 쇼핑몰',
             'technologies' => ['Laravel', 'Blade'],
             'features' => [
@@ -57,6 +72,7 @@ return [
             'name' => 'RoundLink',
             'status' => 2,
             'url' => 'https://round-link.com',
+            'thumbnail' => '/images/projects/roundlink.jpg',
             'description' => '체육관 통합 관리 플랫폼',
             'technologies' => ['Laravel', 'Tailwind CSS'],
             'features' => [
@@ -70,6 +86,7 @@ return [
             'name' => 'MediPHR',
             'status' => 2,
             'url' => 'https://mediphr.com',
+            'thumbnail' => '/images/projects/mediphr.jpg',
             'description' => '건강정보 고속도로 기반 AI 건강정보 플랫폼',
             'technologies' => ['Laravel', 'Livewire', 'Flux UI', 'Tailwind CSS'],
             'features' => [
@@ -83,6 +100,7 @@ return [
             'name' => '해시푸드',
             'status' => 2,
             'url' => 'https://www.hashfood.io',
+            'thumbnail' => '/images/projects/hashfood.jpg',
             'description' => '식자재 원가 계산 및 레피시 분석 플랫폼',
             'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS'],
             'features' => [
@@ -96,6 +114,7 @@ return [
             'name' => 'NextVu',
             'status' => 2,
             'url' => 'https://nextvu.banban.dev',
+            'thumbnail' => '/images/projects/nextvu.jpg',
             'description' => 'AI 기반 트레이딩 전략 백테스팅 플랫폼',
             'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS'],
             'features' => [
@@ -109,6 +128,7 @@ return [
             'name' => 'WB OMS',
             'status' => 3,
             'url' => 'https://wb-oms.banban.dev',
+            'thumbnail' => '/images/projects/wb-oms.jpg',
             'description' => '와일드베리스 통합 주문관리 시스템',
             'technologies' => ['Laravel', 'Livewire', 'Filament'],
             'features' => [
@@ -122,6 +142,7 @@ return [
             'name' => 'SportsLink',
             'status' => 3,
             'url' => 'https://sportslink.banban.dev',
+            'thumbnail' => '/images/projects/sportslink.jpg',
             'description' => '스포츠 아카데미 중개 서비스 플랫폼',
             'technologies' => ['Laravel', 'Livewire', 'Tailwind CSS', 'SQLite'],
             'features' => [
@@ -148,6 +169,7 @@ return [
             'name' => 'TubeInsight',
             'status' => 3,
             'url' => 'https://tube-insight.banban.dev',
+            'thumbnail' => '/images/projects/tubeinsight.jpg',
             'description' => '유튜브 채널 성과 분석 사이트',
             'technologies' => ['Laravel', 'Livewire', 'Filament', 'Tailwind CSS', 'YouTube API'],
             'features' => [
@@ -161,6 +183,7 @@ return [
             'name' => 'MindPort',
             'status' => 2,
             'url' => 'https://mindport.banban.dev/',
+            'thumbnail' => '/images/projects/mindport.jpg',
             'description' => '심리 케미스트리 플랫폼',
             'technologies' => ['Laravel', 'React', 'Tailwind CSS'],
             'features' => [
@@ -174,6 +197,7 @@ return [
             'name' => 'WithToc',
             'status' => 1,
             'url' => 'https://withtoc.com',
+            'thumbnail' => '/images/projects/withtoc.jpg',
             'description' => '중국 증시 뉴스 및 분석 플랫폼',
             'technologies' => ['WordPress', 'PHP', 'MySQL'],
             'features' => [

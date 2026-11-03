@@ -38,7 +38,8 @@
                         <img
                             src="{{ $project['thumbnail'] }}"
                             alt="{{ $project['name'] }}"
-                            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                            loading="lazy"
+                            class="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
                         >
                     @else
                         <div class="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center p-4">
@@ -64,6 +65,14 @@
                 <!-- 내용 -->
                 <div class="flex flex-col flex-1 p-6">
                     <div class="flex-1">
+                        @if(isset($project['thumbnail']))
+                            <!-- 프로젝트명 -->
+                            <div class="mb-4">
+                                <h3 class="text-lg font-bold text-white">{{ $project['name'] }}</h3>
+                                <p class="mt-1 text-sm text-gray-300">{{ $project['description'] }}</p>
+                            </div>
+                        @endif
+
                         <!-- 기능 목록 -->
                         <div class="space-y-1 mb-4">
                             @foreach($project['features'] as $feature)
